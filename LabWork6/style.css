@@ -1,0 +1,29 @@
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: #171616;
+  color: rgb(220, 207, 207);
+}
+
+#sidebar {
+  background-color: #e5eaef;
+  border: 1.2px solid #d6d7d7;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  transition: background-color 0.3s;
+}
+.list-group-item:hover {
+  background-color: #e2e6ea;
+}
+
+.carousel-inner {
+  height: 500px; /* Установите желаемую высоту */
+}
+.carousel-inner img {
+  height: 100%; /* Изображения будут растягиваться по высоте контейнера */
+  object-fit: cover; /* Сохранение пропорций, обрезая лишнее */
+}
+
